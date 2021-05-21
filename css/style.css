@@ -22,7 +22,7 @@ ul{
   box-shadow: 0 5px 10px #f0f0f0;
 }
 
-.cabecera .buy-now{
+.buy-now{
   font-weight: inherit;
   font-family: inherit;
   border: 3px solid var(--detail-color);
@@ -32,10 +32,16 @@ ul{
   border-bottom-right-radius: 25px;
 }
 
+.buy-now:hover{
+  background-color: var(--detail-color);
+}
+
 .link-navegacion{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+
 
 .link-navegacion:hover{
   color: var(--detail-color);
