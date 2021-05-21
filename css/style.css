@@ -1,5 +1,6 @@
 :root{
   --detail-color: #ed6436;
+  --tamanyo-texto-cabecera: 17px;
 }
 
 body{
@@ -15,7 +16,7 @@ ul{
 }
 
 .cabecera{
-  font-size: 17px;
+  font-size: var(--tamanyo-texto-cabecera);
   font-weight: 800;
   box-shadow: 0 5px 10px #f0f0f0;
 }
@@ -39,4 +40,19 @@ ul{
   color: var(--detail-color);
   text-decoration: none;
   border-bottom: 4px solid var(--detail-color);
+}
+
+.menu-drop{
+  border: none;
+  top: 200%;
+  left: -20px;
+}
+
+.elemento-drop{
+  border-bottom: 1px solid #d3d3d3;
+  display: flex;
+  font-size: var(--tamanyo-texto-cabecera);
+  font-weight: 800;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
