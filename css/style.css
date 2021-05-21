@@ -1,5 +1,6 @@
 :root{
   --detail-color: #ed6436;
+  --background-color: #fff;
   --tamanyo-texto-cabecera: 17px;
 }
 
@@ -55,4 +56,9 @@ ul{
   font-weight: 800;
   padding-bottom: 5px;
   margin-bottom: 5px;
+}
+
+.menu-drop > .dropdown-item:hover{
+  color: var(--detail-color);
+  background-color: var(--background-color);
 }
