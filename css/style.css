@@ -29,3 +29,14 @@ ul{
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
+
+.link-navegacion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link-navegacion:hover{
+  color: var(--detail-color);
+  text-decoration: none;
+  border-bottom: 4px solid var(--detail-color);
+}
