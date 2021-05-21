@@ -1,3 +1,7 @@
+:root{
+  --detail-color: #ed6436;
+}
+
 body{
   font-family: 'Nunito', sans-serif;
 }
@@ -19,4 +23,9 @@ ul{
 .cabecera .buy-now{
   font-weight: inherit;
   font-family: inherit;
+  border: 3px solid var(--detail-color);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
