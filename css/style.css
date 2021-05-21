@@ -1,3 +1,22 @@
 body{
   font-family: 'Nunito', sans-serif;
 }
+
+a{
+  color: inherit;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+.cabecera{
+  font-size: 17px;
+  font-weight: 800;
+  box-shadow: 0 5px 10px #f0f0f0;
+}
+
+.cabecera .buy-now{
+  font-weight: inherit;
+  font-family: inherit;
+}
