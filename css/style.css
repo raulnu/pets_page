@@ -99,3 +99,9 @@ ul{
   left: -36px;
   }
 }
+
+@media (min-width: 768px){
+  .logo-header{
+    height: 60px;
+  }
+}
