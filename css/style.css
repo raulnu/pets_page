@@ -36,13 +36,20 @@ ul{
   background-color: var(--detail-color);
 }
 
+.lista-navegacion{
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .elemento-lista{
   position: relative;
+  margin-bottom: 15px;
 }
 
 .link-navegacion{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .link-navegacion:hover{
@@ -53,7 +60,7 @@ ul{
 
 .menu-drop{
   border: none;
-  top: 200%;
+  top: 100%;
   left: -36px;
 }
 
@@ -69,4 +76,26 @@ ul{
 .menu-drop > .dropdown-item:hover{
   color: var(--detail-color);
   background-color: var(--background-color);
+}
+
+.icono-dropdown{
+  height: 20px;
+  width: 40px;
+}
+
+@media (min-width: 576px){
+  .lista-navegacion{
+    flex-direction: row;
+  }
+  .elemento-lista{
+    margin-bottom: 0;
+  }
+  .link-navegacion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  .menu-drop{
+  top: 200%;
+  left: -36px;
+  }
 }
