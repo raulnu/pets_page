@@ -36,12 +36,14 @@ ul{
   background-color: var(--detail-color);
 }
 
+.elemento-lista{
+  position: relative;
+}
+
 .link-navegacion{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-
 
 .link-navegacion:hover{
   color: var(--detail-color);
@@ -52,7 +54,7 @@ ul{
 .menu-drop{
   border: none;
   top: 200%;
-  left: -20px;
+  left: -36px;
 }
 
 .elemento-drop{
