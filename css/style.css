@@ -89,6 +89,8 @@ ul{
 
 .img-section{
   margin-top: 25px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contenedor-activities{
@@ -176,5 +178,14 @@ ul{
   .menu-drop{
   top: 200%;
   left: -36px;
+  }
+  .img-section{
+  flex-direction: row;
+  }
+  .contenedor-activities{
+  height: 400px;
+  width: 300px;
+  margin-right: 17px;
+  margin-left: 17px;
   }
 }
