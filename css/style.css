@@ -16,6 +16,8 @@ ul{
   margin-bottom: 0;
 }
 
+/* HEADER */
+
 .cabecera{
   font-size: var(--tamanyo-texto-cabecera);
   font-weight: 800;
@@ -83,6 +85,8 @@ ul{
   width: 40px;
 }
 
+/* MAIN */
+
 .img-section{
   margin-top: 25px;
 }
@@ -95,9 +99,7 @@ ul{
   background-size: cover;
   background-position: center;
   border-radius: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0;
 }
 
 .activities-1{
@@ -119,6 +121,7 @@ ul{
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-between;
+  visibility: hidden;
 }
 
 .activities-text{
@@ -128,6 +131,25 @@ ul{
 .activity-title{
   font-weight: 800;
   font-size: 1.7rem;
+}
+
+.hover-color{
+  height: 100%;
+  width: 100%;
+  border-radius: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.contenedor-activities:hover .hover-color{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contenedor-activities:hover .img-text{
+  visibility: visible;
 }
 
 @media (min-width: 576px){
