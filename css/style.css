@@ -83,6 +83,14 @@ ul{
   width: 40px;
 }
 
+.activity-img{
+  width: 100%;
+}
+
+.img-text{
+  z-index: 1;
+}
+
 @media (min-width: 576px){
   .lista-navegacion{
     flex-direction: row;
