@@ -90,12 +90,8 @@ ul{
   .elemento-lista{
     margin-bottom: 0;
   }
-  .link-navegacion{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  }
   .menu-drop{
-  top: 200%;
+  top: 150%;
   left: -36px;
   }
 }
@@ -103,5 +99,13 @@ ul{
 @media (min-width: 768px){
   .logo-header{
     height: 60px;
+  }
+  .link-navegacion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  .menu-drop{
+  top: 200%;
+  left: -36px;
   }
 }
