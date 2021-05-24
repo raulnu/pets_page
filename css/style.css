@@ -97,6 +97,10 @@ ul {
   margin-bottom: 30px;
 }
 
+.separacion-bloques{
+  flex-direction: column;
+}
+
 .div-titulo{
   text-align: center;
   margin-bottom: 30px;
@@ -246,9 +250,15 @@ ul {
     visibility: visible;
   }
   .separacion-bloques{
+    flex-direction: row;
     justify-content: space-between;
   }
   .pet-activities{
     margin-top: 85px;
+    margin-bottom: 0;
+  }
+  .div-titulo{
+    text-align: left;
+    margin-bottom: 0;
   }
 }
