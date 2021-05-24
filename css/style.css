@@ -24,6 +24,10 @@ ul {
   box-shadow: 0 5px 10px #f0f0f0;
 }
 
+.navegador{
+  justify-content: flex-end;
+}
+
 .buy-now {
   font-weight: inherit;
   font-family: inherit;
@@ -36,22 +40,6 @@ ul {
 
 .buy-now:hover {
   background-color: var(--detail-color);
-}
-.view-all {
-  font-weight: inherit;
-  font-family: inherit;
-  background-color: var(--detail-color);
-  border: 2px solid var(--detail-color);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  color: #fff;
-}
-.view-all:hover {
-  background-color: #181a1b;
-  color: #fff;
-  transition: 0.3 seg;
 }
 
 .lista-navegacion {
@@ -103,14 +91,41 @@ ul {
 
 /* MAIN */
 
+.pet-activities{
+  font-weight: 800;
+  margin-top: 75px;
+}
+
+.titulo-contenido{
+  color: var(--detail-color);
+  font-weight: inherit;
+  font-size: 1.2rem;
+}
+
+.closer-look{
+  font-size: 3rem;
+}
+
+.view-all {
+  font-weight: inherit;
+  font-family: inherit;
+  background-color: var(--detail-color);
+  border: 2px solid var(--detail-color);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #fff;
+}
+.view-all:hover {
+  background-color: #fff;
+  color: var(--detail-color);
+  transition: 0.3 seg;
+}
+
 .img-section {
   margin-top: 25px;
   align-items: center;
-}
-
-h2 {
-  color: var(--detail-color);
-  font-size: 1.2rem;
 }
 
 .contenedor-activities {
