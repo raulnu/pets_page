@@ -93,7 +93,13 @@ ul {
 
 .pet-activities{
   font-weight: 800;
-  margin-top: 85px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.div-titulo{
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .titulo-contenido{
@@ -105,7 +111,6 @@ ul {
 
 .closer-look{
   font-size: 3rem;
-  align-self: baseline;
 }
 
 .view-all {
@@ -118,8 +123,8 @@ ul {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   color: #fff;
-  height: 55px;
-  width: 130px;
+  min-height: 50px;
+  min-width: 130px;
 }
 .view-all:hover {
   background-color: #fff;
@@ -239,5 +244,11 @@ ul {
   }
   .contenedor-activities:hover .img-text {
     visibility: visible;
+  }
+  .separacion-bloques{
+    justify-content: space-between;
+  }
+  .pet-activities{
+    margin-top: 85px;
   }
 }
