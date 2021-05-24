@@ -116,41 +116,34 @@ ul{
 }
 
 .img-text{
-  height: 85px;
+  height: 53px;
   color: #fff;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-between;
-  visibility: hidden;
+  margin-bottom: 20px;
 }
 
 .activities-text{
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  font-weight: 800;
 }
 
 .activity-title{
   font-weight: 800;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 .hover-color{
   height: 100%;
   width: 100%;
   border-radius: 35px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   transition: background-color 0.3s;
-}
-
-.contenedor-activities:hover .hover-color{
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.contenedor-activities:hover .img-text{
-  visibility: visible;
 }
 
 @media (min-width: 576px){
@@ -183,5 +176,29 @@ ul{
     width: 300px;
     margin-right: 17px;
     margin-left: 17px;
+  }
+  .hover-color{
+    align-items: center;
+  }
+  .img-text{
+  height: 85px;
+  }
+  .activities-text{
+    font-size: 1.2rem;
+  }
+  .activity-title{
+    font-size: 1.7rem;
+  }
+  .hover-color{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .img-text{
+    visibility: hidden;
+  }
+  .contenedor-activities:hover .hover-color{
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .contenedor-activities:hover .img-text{
+    visibility: visible;
   }
 }
