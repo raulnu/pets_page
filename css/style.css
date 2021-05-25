@@ -24,6 +24,10 @@ ul {
   box-shadow: 0 5px 10px #f0f0f0;
 }
 
+.nav-logo{
+  padding: 5px 0;
+}
+
 .navegador{
   justify-content: flex-end;
 }
@@ -215,6 +219,9 @@ ul {
 }
 
 @media (min-width: 768px) {
+  .nav-logo{
+    padding: 5px 15px;
+  }
   .logo-header {
     height: 60px;
   }
