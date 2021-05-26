@@ -137,7 +137,7 @@ ul {
 .view-all:hover {
   background-color: #fff;
   color: var(--detail-color);
-  transition: 0.3 seg;
+  transition: all 0.3 seg;
 }
 
 .img-section {
